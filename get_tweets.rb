@@ -3,6 +3,7 @@
 print "Getting your latest Tweets\n"
 
 require "twitter"
+# "gem install twitter" if you need it
 
 # keys are here https://apps.twitter.com/app/5179915/keys
 
