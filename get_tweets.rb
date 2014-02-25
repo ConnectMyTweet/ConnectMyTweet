@@ -13,6 +13,7 @@ Twitter.configure do |config|
   config.oauth_token_secret = "jfrQ6y3pHOLQTd5gYpV1bhS0jYM75H????????????"
 end
 
-print Twitter.home_timeline
+#search for tag with no retweets
+print Twitter.search ("#connectmytweet -rt")
 
-print "DONE - Getting your Tweets\n"
+print "\nDONE - Getting your Tweets\n"
